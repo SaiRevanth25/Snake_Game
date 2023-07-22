@@ -4,6 +4,7 @@ from snake import Snake
 from food import Food
 from score_board import Score
 
+# screen setup
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
@@ -48,39 +49,5 @@ while game_is_on:
             score.game_over()
             food.done()
             game_is_on = False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 screen.exitonclick()
